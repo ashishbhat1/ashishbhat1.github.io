@@ -1,2 +1,2 @@
-# [My portfolio](https://ashishbhat1.github.io)
+# [My Portfolio](https://ashishbhat1.github.io)
 
