@@ -66,7 +66,7 @@
 	var onePageClick = function() {
 
 
-		$(document).on('click', '#ftco-nav a[href^="#"]', function (event) {
+		$(document).on('click', '#ftco-nav a[href^="#"], .mouse-icon', function (event) {
 	    event.preventDefault();
 
 	    var href = $.attr(this, 'href');
@@ -270,20 +270,20 @@
   });
 
 
-  var goHere = function() {
+//   var goHere = function() {
 
-		$('.mouse-icon').on('click', function(event){
+// 		$('.mouse-icon').on('click', function(event){
 			
-			event.preventDefault();
+// 			event.preventDefault();
 
-			$('html,body').animate({
-				scrollTop: $('.goto-here').offset().top
-			}, 500, 'easeInOutExpo');
+// 			$('html,body').animate({
+// 				scrollTop: $('.goto-here').offset().top
+// 			}, 500, 'easeInOutExpo');
 			
-			return false;
-		});
-	};
-	goHere();
+// 			return false;
+// 		});
+// 	};
+// 	goHere();
 
 	// $("#myScrollspy").scrollspy({ offset: -75 });
 
