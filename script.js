@@ -9,7 +9,7 @@ const getPreferredTheme = () => {
     const savedTheme = localStorage.getItem('portfolio-theme');
     if (savedTheme) return savedTheme;
 
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    return 'light';
 };
 
 const applyTheme = (theme) => {
